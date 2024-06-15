@@ -7,7 +7,7 @@
 //specs
 	"health": 180,
 	"size": 2,
-	"speed": 300,
+	"speed": 150,
 	"itemCapacity": 80,
 	"minDistribute": 40,
 	"reloadTime": 90,
