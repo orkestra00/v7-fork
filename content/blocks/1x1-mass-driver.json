@@ -1,0 +1,35 @@
+{
+//details
+	"type": "massDriver",
+	"name": "1x1 Mass Driver"
+	"details": "Primarily used for skipping above very small obstacles"
+	"category": "distribution",
+//specs
+	"health": 60,
+	"size": 1,
+	"speed": 150,
+	"itemCapacity": 40,
+	"minDistribute": 20,
+	"reloadTime": 60,
+	"range": 100,
+//requirements
+	"consumes":
+	{
+		"power": 0.20
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 30 },
+		{ "item": "lead", "amount": 20 },
+		{ "item": "thorium", "amount": 20 },
+		{ "item": "silicon", "amount": 40 }
+	],
+	"research": {
+	    parent: 2x2-mass-driver
+	    requirements: [
+            thorium/800,
+	    copper/5000,
+	    titanium/5000,
+	    silicon/1000,
+	    ]
+	}
+}
