@@ -1,0 +1,47 @@
+{
+//details
+  "type": "ItemBridge",
+  "name": "Enhannced Phase Bridge",
+  "description": "Transports items over buildings and heavy terrain, extends up to 30 blocks",
+//specs
+  "health": 70,
+  "range": 11,
+  "transportTime": 0.5,
+  "hasPower": true,
+  "category": "distribution",
+//requirements
+  "requirements": [
+  	"consumes":
+	{
+		"power": 0.20
+	},
+    {
+      "item": "surgealloy",
+      "amount": 5
+    },
+    {
+      "item": "thorium",
+      "amount": 20
+    },
+    {
+      "item": "titanium",
+      "amount": 20
+    },
+    {
+	  "item": "phasefabric",
+	  "amount": 10
+    },
+	{
+	  "item": "silicon",
+	  "amount": 20
+	}
+  ],
+  "research": {
+      parent: "bridge-conveyor"
+      requirements: [
+      lead/200,
+      titanium/300,
+      thorium/200
+      ]
+  }
+}
